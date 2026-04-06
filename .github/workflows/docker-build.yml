@@ -14,4 +14,4 @@ jobs:
         run: docker build -t local-llm-chatbot .
 
       - name: Verify build
-        run: docker run --rm local-llm-chatbot python -c "import src; print('Build OK')"
+        run: docker run --rm --entrypoint python local-llm-chatbot -c "import src; print('Build OK')"
