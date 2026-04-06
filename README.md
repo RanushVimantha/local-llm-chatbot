@@ -10,6 +10,8 @@
 > A privacy-first AI chatbot running entirely on your machine.
 > No API keys. No data leaves your computer. 100% free.
 
+![Chat Interface](assets/screenshot_chat.png)
+
 ## Features
 
 - **Fully Local** — Zero external API calls. Your data stays on your machine.
@@ -103,6 +105,8 @@ Or use the **Download Model** section in the app's sidebar.
 ## Model Comparison
 
 Toggle **Compare Mode** in the sidebar to send the same prompt to two models simultaneously. Responses appear side-by-side with performance metrics, and the faster model is highlighted.
+
+![Model Comparison](assets/screenshot_compare.png)
 
 ## Configuration
 
